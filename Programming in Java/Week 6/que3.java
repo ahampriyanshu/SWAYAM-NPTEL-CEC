@@ -1,21 +1,24 @@
-import java.util.Scanner;
-  
-  public class Question5_3 {
-  public static void main(String[] args) { 
-      int a, b;
-      Scanner input = new Scanner(System.in);
-int result;
-a = input.nextInt();
-b = input.nextInt();
+// Interface A is defined with an abstract method run()
+interface A {
+	public abstract void run();
+}
 
-try 
+// Class B is defined which implements A and an empty implementation of run()
+class B implements A {
+	public void run() {}
+}
+class MyThread extends B
 {
-   result = a/b;
-  System.out.print(result);
+  public void run(){
+    System.out.print("NPTEL Java");
+  }
 }
-catch (ArithmeticException e )
-{
-  System.out.print("Exception caught: Division by zero.");
-}
-}
+		// Main class Question is defined
+public class Question63 {
+     public static void main(String[] args) {
+		 // An object of MyThread class is created
+         MyThread t = new MyThread();
+		 // run() of class MyThread is called
+         t.run();
+     }
 }

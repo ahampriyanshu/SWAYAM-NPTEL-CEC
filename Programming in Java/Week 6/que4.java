@@ -1,21 +1,43 @@
-import java.util.*;
-public class Question5_4{
-  public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in); 
-      int length = sc.nextInt(); 
-      // create an array to save user input 
-      int[] name = new int[length];
-      int sum=0;//save the total sum of the array.
-try {
-  for ( int i = 0; i<length;i++)
-    name[i] = sc.nextInt();
-  for (int i=0;i<length;i++)
-    sum =sum+name[i];
-  System.out.print(sum);
-}
-catch (InputMismatchException e)
-{
-  System.out.print("You entered bad data.");
-}
-}
-}
+class Execute{  
+synchronized void print(int n){
+   for(int i=1;i<=5;i++){  
+     System.out.println(n*i);  
+     try{  
+      Thread.sleep(400);  
+     }catch(Exception e){
+        System.out.println(e);
+     }  
+   }
+ }  
+ 
+} // Ending Execute class
+
+class Thread1 extends Thread{  
+	Execute t;  
+	Thread1(Execute t){  
+		this.t=t;  
+	}  
+	public void run(){  
+		t.print(5);  
+	} 
+}  
+
+class Thread2 extends Thread{  
+	Execute t;  
+	Thread2(Execute t){  
+		this.t=t;  
+	}  
+	public void run(){  
+		t.print(100);  
+	}  
+}  
+  
+public class Question64{  
+	public static void main(String args[]){  
+		Execute obj = new Execute();//only one object  
+		Thread1 t1=new Thread1(obj);  
+		Thread2 t2=new Thread2(obj);  
+		t1.start();  
+		t2.start();  
+	}  
+} 
