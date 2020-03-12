@@ -29,5 +29,4 @@ for (i = 0 ;j<size; i++,j++)
 for (i = 0; i < size; i++) {
       printf("%d\n", array_new[i]);
    }
-
 }
