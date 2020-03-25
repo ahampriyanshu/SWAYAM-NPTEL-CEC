@@ -1,22 +1,23 @@
 import java.util.*;
 public class Pattern1 {
-    public static void main(String[] args) {
-        Scanner inr = new Scanner(System.in);
-	   int n = inr.nextInt();
-        // Add the necessary code in the below space
-      for(int i=1;i<=n;i++)
-      {
-        for(int space=1;space<=n-i;space++)
+public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int   rows = scan.nextInt();
+  int k=0,sum=0;
+        for(int i=1; i<=rows; ++i,k=0)
         {
-          System.out.print("  ");
+            for(int j=1; j<=rows-i; ++j)
+            {
+                System.out.print("  ");
+            }
+            while(k != 2 * i - 1 )
+            {
+                System.out.print("* ");
+              	sum = sum + 1;
+                ++k;
+            }
+            System.out.println();
         }
-        for(int k=1;k<2*i;k++)
-        {
-          System.out.print("* ");
-        }
-        System.out.print("\n");
-      }
-      System.out.print(n*n);
-      System.out.print("\n");
+       System.out.println(sum);
     }
 }

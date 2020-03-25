@@ -35,6 +35,7 @@ public class Pattern4 {
             System.out.println();
           k++;
         }
-      }
+      }System.out.println();
     }
+  
 }
