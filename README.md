@@ -1,20 +1,26 @@
-## [Programming In C++](/Programming_In_C++)
+## [Programming In C++](Programming_in_C++)
 
----
+By Partha Pratim Das\
+Course Duration : 8 Weeks\
+Started in Feb 2020\
+Ended in May 2020(maybe)
 
-By Partha Pratim Das
-Course Duration : 8 Weeks
+***
 
-## [Programming In Java](/Programming_In_Java)
+## [Programming In Java](Programming_in_Java)
 
----
+By Debasis Samanta\
+Course Duration : 12 Weeks\
+Started in Feb 2020\
+Ended in May 2020(maybe)
 
-By Debasis Samanta
-Course Duration : 12 Weeks
+***
 
-## [Problem Solving Through Programming In C](/Problem_Solving_Through_Programming_In_C)
+## [Problem Solving Through Programming In C](Problem_solving_through_Programming_In_C)
 
----
+By Anupam Basu\
+Course Duration : 12 Weeks\
+Started in Feb 2020\
+Ended in May 2020(maybe)
 
-By Anupam Basu
-Course Duration : 12 Weeks
+***
