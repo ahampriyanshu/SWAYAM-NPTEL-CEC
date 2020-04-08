@@ -1,25 +1,20 @@
-## Programming in Java By Debasis Samantha
+## [Programming In C++](/Programming_In_C++)
 
-- [WEEK 1](Week_1)
+---
 
-- [WEEK 2](Week_2)
+By Partha Pratim Das
+Course Duration : 8 Weeks
 
-- [WEEK 3](Week_3)
+## [Programming In Java](/Programming_In_Java)
 
-- [WEEK 4](Week_4)
+---
 
-- [WEEK 5](Week_5)
+By Debasis Samanta
+Course Duration : 12 Weeks
 
-- [WEEK 6](Week_6)
+## [Problem Solving Through Programming In C](/Problem_Solving_Through_Programming_In_C)
 
-- [WEEK 7](Week_7)
+---
 
-- [WEEK 8](Week_8)
-
-- [WEEK 9](Week_9)
-
-- [WEEK 10](Week_10)
-
-- [WEEK 11](Week_11)
-
-- [WEEK 12](Week_12)
+By Anupam Basu
+Course Duration : 12 Weeks
