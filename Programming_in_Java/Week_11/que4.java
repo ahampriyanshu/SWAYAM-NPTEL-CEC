@@ -14,8 +14,12 @@ public class CalAverage {
               
 ~~~THERE IS SOME INVISIBLE CODE HERE~~~
 
-String st ="SELECT AVE(Age) from PLAYERS";
-stmt.executeUpdate(st);
+ResultSet rs=stmt.executeQuery("select avg(age) from players");
+
+rs.next();
+
+System.out.println("Average age of players is "+rs.getInt(1));
+
 
 ~~~THERE IS SOME INVISIBLE CODE HERE~~~
 			
