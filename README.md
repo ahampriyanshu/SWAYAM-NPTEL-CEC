@@ -3,21 +3,21 @@
 By Partha Pratim Das , IIT Kharagpur\
 Course Duration : 8 Weeks\
 Started in Feb 2020\
-Ended in May 2020(maybe)
+Cancelled in June 2020 due repeated delay in final examination(Coz of Covid-19 pandemic)
 
 ## [Programming In Java](Programming_in_Java)
 
 By Debasis Samanta , IIT Kharagpur \
 Course Duration : 12 Weeks\
 Started in Feb 2020\
-Ended in May 2020(maybe)
+Cancelled in June 2020 due repeated delay in final examination(Coz of Covid-19 pandemic)
 
 ## [Problem Solving Through Programming In C](Problem_solving_through_Programming_In_C)
 
 By Anupam Basu , IIT Kharagpur \
 Course Duration : 12 Weeks\
 Started in Feb 2020\
-Ended in May 2020(maybe)
+Cancelled in June 2020 due repeated delay in final examination(Coz of Covid-19 pandemic)
 
 ## [Human Computer Interactions](Human_Computer_Interactions)
 
